@@ -1,0 +1,48 @@
+.form {
+  width: 320px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.message {
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  padding: 8px;
+  border: 1px solid;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.loading {
+  color: white;
+  background-color: #3498db;
+  border-color: #2980b9;
+}
+
+.error {
+  color: red;
+  background-color: #ffe6e6;
+  border-color: red;
+}
+
+.success {
+  color: green;
+  background-color: #e6ffe6;
+  border-color: green;
+}
+
+.avatarPreview {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.avatarImage {
+  height: 100px;
+  object-fit: cover;
+}
