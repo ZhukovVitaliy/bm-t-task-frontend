@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 
 import { updateProfile } from '../../redux/auth/operations';
 import { selectIsLoading, selectUser } from '../../redux/auth/selectors';
-import { validatePassword } from '../../validatePassword';
+import { validatePassword } from '../../helpers';
 import DocumentTitle from '../../components/DocumentTitle';
 
 import placeholderAvatar from '/Profile_avatar_placeholder_large.png';
