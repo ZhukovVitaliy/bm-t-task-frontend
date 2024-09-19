@@ -2,7 +2,7 @@ import axios from 'axios';
 import { saveRatesToLocalStorage, getRatesFromLocalStorage } from '../helpers';
 
 const { VITE_CURRENCY_API_KEY } = import.meta.env;
-const API_URL = `http://api.currencylayer.com/live?access_key=${VITE_CURRENCY_API_KEY}&currencies=USD,EUR,PLN&source=UAH&format=1`;
+const API_URL = `https://api.currencylayer.com/live?access_key=${VITE_CURRENCY_API_KEY}&currencies=USD,EUR,PLN&source=UAH&format=1`;
 
 export const fetchCurrencyRates = async () => {
   const localRates = getRatesFromLocalStorage();
