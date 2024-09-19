@@ -16,10 +16,10 @@ export const AuthNav = () => {
       </button>
       <nav className={`${css.links} ${isMenuOpen ? css.showMenu : ''}`}>
         <NavLink className={css.link} to="/register" onClick={toggleMenu}>
-          Sing In
+          Sign Up
         </NavLink>
         <NavLink className={css.link} to="/login" onClick={toggleMenu}>
-          Log In
+          Sign In
         </NavLink>
       </nav>
     </div>

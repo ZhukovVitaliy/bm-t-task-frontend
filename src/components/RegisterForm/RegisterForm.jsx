@@ -55,7 +55,7 @@ export const RegisterForm = () => {
         Password
         <input type="password" name="password" />
       </label>
-      <button type="submit">Register</button>
+      <button type="submit">Sign Up</button>
       {isLoading && (
         <p className={css.message + ' ' + css.loading}>
           Loading, please wait...
