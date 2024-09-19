@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 
 import { register } from '../../redux/auth/operations';
 import { selectIsLoading } from '../../redux/auth/selectors';
-import { validatePassword } from '../../../helpers/validatePassword.js';
+import { validatePassword } from '../../helpers';
 
 import css from './RegisterForm.module.css';
 
